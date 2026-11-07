@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/terminal_fire_vfx.webp" alt="Johann Abad - Terminal Fire Session" width="100%" />
+  <img src="assets/terminal.svg" alt="Johann Abad - Terminal Session" width="100%" />
 </div>
 
 <br/>
