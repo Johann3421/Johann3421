@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" width="840" height="400">
+  <defs>
+    <style>
+      .t-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    </style>
+  </defs>
+
+  <!-- Window Container -->
+  <rect x="0" y="0" width="840" height="400" rx="10" ry="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Titlebar -->
+  <path d="M0 10 C0 4.48 4.48 0 10 0 L830 0 C835.52 0 840 4.48 840 10 L840 36 L0 36 Z" fill="#161b22" />
+  <line x1="0" y1="36" x2="840" y2="36" stroke="#30363d" stroke-width="1" />
+
+  <!-- Window Dots -->
+  <circle cx="22" cy="18" r="5.5" fill="#ff5f56" />
+  <circle cx="40" cy="18" r="5.5" fill="#ffbd2e" />
+  <circle cx="58" cy="18" r="5.5" fill="#27c93f" />
+
+  <!-- Window Title -->
+  <text x="420" y="23" text-anchor="middle" fill="#8b949e" font-size="12" class="t-mono">zsh - tmux session 0: "johann-core"</text>
+
+  <!-- Vertical Divider (Split) -->
+  <line x1="330" y1="36" x2="330" y2="370" stroke="#30363d" stroke-width="1" />
+
+  <!-- Left Pane Background -->
+  <rect x="1" y="37" width="328" height="333" fill="#0b0f17" />
+
+  <!-- Left Pane: ASCII Art -->
+  <g class="t-mono" font-size="8.5" fill="#58a6ff" font-weight="bold">
+    <text x="24" y="62">   __      __                             </text>
+    <text x="24" y="74">  / /___  / /_  ____ _____  ____          </text>
+    <text x="24" y="86"> / / __ \/ __ \/ __ `/ __ \/ __ \         </text>
+    <text x="24" y="98">/ / /_/ / / / / /_/ / / / / / / /         </text>
+    <text x="24" y="110">\____/\____/_/ /_/\__,_/_/ /_/_/ /_/          </text>
+  </g>
+
+  <!-- Left Pane: User Host -->
+  <text x="24" y="136" font-size="12" class="t-mono">
+    <tspan fill="#58a6ff" font-weight="bold">johann</tspan>
+    <tspan fill="#8b949e">@</tspan>
+    <tspan fill="#58a6ff" font-weight="bold">dev-huanuco</tspan>
+  </text>
+  <line x1="24" y1="145" x2="310" y2="145" stroke="#30363d" stroke-width="1" />
+
+  <!-- Left Pane: Neofetch Specs -->
+  <g class="t-mono" font-size="11.5">
+    <text x="24" y="168"><tspan fill="#7ee787" font-weight="bold">OS:</tspan> <tspan fill="#c9d1d9">Linux / Debian / Windows Dev</tspan></text>
+    <text x="24" y="188"><tspan fill="#7ee787" font-weight="bold">Host:</tspan> <tspan fill="#c9d1d9">Huanuco, Peru (UTC-5)</tspan></text>
+    <text x="24" y="208"><tspan fill="#7ee787" font-weight="bold">Uptime:</tspan> <tspan fill="#c9d1d9">3+ years in engineering</tspan></text>
+    <text x="24" y="228"><tspan fill="#7ee787" font-weight="bold">Shell:</tspan> <tspan fill="#c9d1d9">zsh 5.9 + starship</tspan></text>
+    <text x="24" y="248"><tspan fill="#7ee787" font-weight="bold">Packages:</tspan> <tspan fill="#c9d1d9">70 active repos (GitHub)</tspan></text>
+    <text x="24" y="268"><tspan fill="#7ee787" font-weight="bold">Core:</tspan> <tspan fill="#c9d1d9">POS, RPA, Mobile Kotlin</tspan></text>
+    <text x="24" y="288"><tspan fill="#7ee787" font-weight="bold">Editor:</tspan> <tspan fill="#c9d1d9">Neovim / VS Code</tspan></text>
+  </g>
+
+  <!-- Left Pane: ANSI Palette -->
+  <g transform="translate(24, 310)">
+    <rect x="0" y="0" width="16" height="12" rx="2" fill="#ff5f56" />
+    <rect x="22" y="0" width="16" height="12" rx="2" fill="#ffbd2e" />
+    <rect x="44" y="0" width="16" height="12" rx="2" fill="#27c93f" />
+    <rect x="66" y="0" width="16" height="12" rx="2" fill="#58a6ff" />
+    <rect x="88" y="0" width="16" height="12" rx="2" fill="#d2a8ff" />
+    <rect x="110" y="0" width="16" height="12" rx="2" fill="#79c0ff" />
+  </g>
+
+  <!-- Right Pane: Command 1 (johann stack) -->
+  <g class="t-mono">
+    <text x="350" y="66" font-size="12.5">
+      <tspan fill="#7ee787" font-weight="bold">&#10095;</tspan> <tspan fill="#f0f6fc">johann</tspan> <tspan fill="#f2cc60">--stack</tspan>
+    </text>
+    <text x="364" y="86" font-size="11.5" fill="#8b949e">
+      <tspan fill="#79c0ff">Languages:</tspan> Python, TypeScript, PHP, Kotlin, SQL, Java
+    </text>
+    <text x="364" y="103" font-size="11.5" fill="#8b949e">
+      <tspan fill="#79c0ff">Frameworks:</tspan> React, React Native, Node.js, Express, Laravel
+    </text>
+    <text x="364" y="120" font-size="11.5" fill="#8b949e">
+      <tspan fill="#79c0ff">Databases:</tspan> PostgreSQL, MySQL, SQL Server, MongoDB
+    </text>
+  </g>
+
+  <!-- Right Pane: Command 2 (curl status) -->
+  <g class="t-mono">
+    <text x="350" y="152" font-size="12.5">
+      <tspan fill="#7ee787" font-weight="bold">&#10095;</tspan> <tspan fill="#f0f6fc">curl</tspan> <tspan fill="#f2cc60">-s</tspan> <tspan fill="#f0f6fc">status.api</tspan>
+    </text>
+    <text x="364" y="172" font-size="11.5" fill="#7ee787">
+      { "available": true, "focus": "Enterprise POS &amp; RPA Automation" }
+    </text>
+  </g>
+
+  <!-- Right Pane: Command 3 (gh repo view) -->
+  <g class="t-mono">
+    <text x="350" y="206" font-size="12.5">
+      <tspan fill="#7ee787" font-weight="bold">&#10095;</tspan> <tspan fill="#f0f6fc">gh</tspan> <tspan fill="#f2cc60">repo view</tspan> <tspan fill="#f0f6fc">--featured</tspan>
+    </text>
+    <!-- Tag 1: Sekai-POS -->
+    <rect x="364" y="218" width="116" height="22" rx="4" fill="#21262d" stroke="#30363d" />
+    <text x="372" y="233" font-size="11" fill="#f0f6fc">Sekai-POS-1.1</text>
+    <!-- Tag 2: Peru Compras -->
+    <rect x="490" y="218" width="134" height="22" rx="4" fill="#21262d" stroke="#30363d" />
+    <text x="498" y="233" font-size="11" fill="#f0f6fc">Peru-Compras-RPA</text>
+    <!-- Tag 3: Bot Precios -->
+    <rect x="634" y="218" width="105" height="22" rx="4" fill="#21262d" stroke="#30363d" />
+    <text x="642" y="233" font-size="11" fill="#f0f6fc">Bot-Precios</text>
+  </g>
+
+  <!-- Right Pane: Command 4 (cat contact) -->
+  <g class="t-mono">
+    <text x="350" y="274" font-size="12.5">
+      <tspan fill="#7ee787" font-weight="bold">&#10095;</tspan> <tspan fill="#f0f6fc">cat</tspan> <tspan fill="#f2cc60">~/.contact</tspan>
+    </text>
+    <text x="364" y="294" font-size="11.5" fill="#8b949e">
+      LinkedIn: <tspan fill="#79c0ff">in/johann-cristopher-abad-campos</tspan>
+    </text>
+    <text x="364" y="310" font-size="11.5" fill="#8b949e">
+      Email: <tspan fill="#79c0ff">loritox3421@gmail.com</tspan> &#8226; Discord: <tspan fill="#79c0ff">@loritox3421</tspan>
+    </text>
+    <text x="364" y="326" font-size="11.5" fill="#8b949e">
+      Location: <tspan fill="#79c0ff">Huanuco, Peru (UTC-5)</tspan>
+    </text>
+  </g>
+
+  <!-- Tmux Statusbar Bottom -->
+  <line x1="0" y1="370" x2="840" y2="370" stroke="#30363d" stroke-width="1" />
+  <path d="M0 371 L840 371 L840 390 C840 395.52 835.52 400 830 400 L10 400 C4.48 400 0 395.52 0 390 Z" fill="#161b22" />
+  
+  <text x="14" y="388" font-size="11" class="t-mono">
+    <tspan fill="#7ee787" font-weight="bold">[0]</tspan> <tspan fill="#8b949e">0:zsh* 1:nvim-</tspan>
+  </text>
+  
+  <text x="826" y="388" text-anchor="end" font-size="11" fill="#79c0ff" class="t-mono">
+    Johann3421 &#8226; 70 Repositorios &#8226; Huanuco, PE
+  </text>
+</svg>

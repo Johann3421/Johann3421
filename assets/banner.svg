@@ -1,0 +1,189 @@
+<svg fill="none" viewBox="0 0 800 240" width="800" height="240" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          position: relative;
+          width: 100%;
+          height: 240px;
+          background: #090d16;
+          border-radius: 12px;
+          border: 1px solid #1f293d;
+          overflow: hidden;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Code', monospace;
+          box-sizing: border-box;
+          padding: 30px 40px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        /* Animated background grid */
+        .grid-pattern {
+          position: absolute;
+          inset: 0;
+          background-image: 
+            linear-gradient(to right, rgba(30, 41, 59, 0.3) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(30, 41, 59, 0.3) 1px, transparent 1px);
+          background-size: 28px 28px;
+          mask-image: radial-gradient(ellipse at 50% 50%, #000 70%, transparent 100%);
+          -webkit-mask-image: radial-gradient(ellipse at 50% 50%, #000 70%, transparent 100%);
+        }
+
+        /* Ambient glowing orbs */
+        .glow-cyan {
+          position: absolute;
+          width: 320px;
+          height: 320px;
+          top: -120px;
+          right: -40px;
+          background: radial-gradient(circle, rgba(0, 210, 255, 0.18) 0%, transparent 70%);
+          border-radius: 50%;
+          filter: blur(40px);
+          animation: pulse 6s ease-in-out infinite alternate;
+        }
+        .glow-emerald {
+          position: absolute;
+          width: 280px;
+          height: 280px;
+          bottom: -100px;
+          left: 10%;
+          background: radial-gradient(circle, rgba(16, 185, 129, 0.12) 0%, transparent 70%);
+          border-radius: 50%;
+          filter: blur(50px);
+          animation: pulse 8s ease-in-out infinite alternate-reverse;
+        }
+
+        @keyframes pulse {
+          0% { transform: scale(0.9) translate(0, 0); opacity: 0.12; }
+          100% { transform: scale(1.1) translate(15px, -10px); opacity: 0.25; }
+        }
+
+        /* Status pill */
+        .status-pill {
+          position: relative;
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          background: rgba(16, 185, 129, 0.08);
+          border: 1px solid rgba(16, 185, 129, 0.3);
+          border-radius: 20px;
+          padding: 4px 12px;
+          font-size: 11px;
+          color: #10b981;
+          font-weight: 600;
+          letter-spacing: 0.8px;
+          text-transform: uppercase;
+          width: fit-content;
+          margin-bottom: 12px;
+        }
+        .status-dot {
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: #10b981;
+          box-shadow: 0 0 8px #10b981;
+          animation: blink 2s infinite;
+        }
+        @keyframes blink {
+          0%, 100% { opacity: 1; transform: scale(1); }
+          50% { opacity: 0.4; transform: scale(0.8); }
+        }
+
+        /* Main typography */
+        .title {
+          position: relative;
+          font-size: 32px;
+          font-weight: 800;
+          color: #f8fafc;
+          letter-spacing: -0.8px;
+          margin: 0;
+          line-height: 1.1;
+        }
+        .title .highlight {
+          background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+          position: relative;
+          color: #94a3b8;
+          font-size: 14.5px;
+          font-weight: 500;
+          margin: 8px 0 16px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+        .subtitle-tag {
+          color: #cbd5e1;
+          font-family: ui-monospace, monospace;
+          background: rgba(255, 255, 255, 0.04);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          padding: 2px 8px;
+          border-radius: 4px;
+          font-size: 12px;
+        }
+
+        /* Bottom stats bar */
+        .bottom-bar {
+          position: relative;
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          font-size: 12.5px;
+          color: #64748b;
+          border-top: 1px solid rgba(255, 255, 255, 0.06);
+          padding-top: 12px;
+        }
+        .bar-item {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+        }
+        .bar-item strong {
+          color: #e2e8f0;
+          font-weight: 600;
+        }
+      </style>
+
+      <div class="container">
+        <div class="grid-pattern"></div>
+        <div class="glow-cyan"></div>
+        <div class="glow-emerald"></div>
+
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          BUILDING PRODUCTION SYSTEMS
+        </div>
+
+        <h1 class="title">
+          Johann <span class="highlight">Abad Campos</span>
+        </h1>
+
+        <div class="subtitle">
+          <span>Software Developer &amp; Systems Builder</span>
+          <span class="subtitle-tag">Huánuco, PE</span>
+          <span class="subtitle-tag">Full-Stack &amp; RPA</span>
+        </div>
+
+        <div class="bottom-bar">
+          <div class="bar-item">
+            <span>⚡ Repositorios:</span>
+            <strong>70+ Proyectos</strong>
+          </div>
+          <div class="bar-item">
+            <span>🛠️ Enfoque:</span>
+            <strong>POS Transaccional &amp; Automatización</strong>
+          </div>
+          <div class="bar-item">
+            <span>🎯 Stack:</span>
+            <strong>Python • Node • React • Kotlin</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
+

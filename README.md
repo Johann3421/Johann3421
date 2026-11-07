@@ -1,127 +1,145 @@
-
-<!--horizontal divider(gradiant)-->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<!--h1 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h1 style="display: inline-block">Hi 👋, I'm Johann</h1></summary>
-  </ul>
-</div>
-<p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23C8BE25&size=25&center=true&vCenter=true&width=600&height=100&lines=Software+Engineer+@bld.ai;Computer+Science+Student;Competitive+Programmer;2x+ACPC+Finalist;Expert+on+Codeforces;Division+1+on+Codechef+(5+Stars);4+Kyu+on+Atcoder;Always+learning+new+things"></a>
-</p>
-
-
-<!--- snake -->
 <div align="center">
-  <p align = "center">
-	<img src = "https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
-</p>
+  <img src="assets/terminal.svg" alt="Johann Abad - Terminal Session" width="100%" />
 </div>
 
+<br/>
 
-<!--h2 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h2 style="display: inline-block">Confusion is part of Programming</h2></summary>
-  </ul>
-</div>
-<picture> <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width = 250px></picture>
+### 👨‍💻 Sobre Mí
 
-<!--Intro start-->
-🔭 Actualmente estoy trabajando en AWS, React, React Native, Nodejs y MongoDB.
+Soy **Johann Cristopher Abad Campos**, desarrollador de software ubicado en **Huánuco, Perú**. Construyo aplicaciones empresariales de extremo a extremo, enfocándome en arquitectura transaccional, automatización de procesos mediante RPA y desarrollo móvil:
 
-🌱 Estoy aprendiendo actualmente a ensamblar múltiples tecnologías para crear aplicaciones escalables.
+* 🏪 **Sistemas Retail & POS:** Arquitectura y desarrollo de soluciones de punto de venta, inventarios críticos y facturación en tiempo real (**Sekai-POS**).
+* 🤖 **Automatización & RPA:** Extracción de datos masiva y monitoreo autónomo continuo de licitaciones públicas estatales (**Perú Compras**).
+* 📱 **Desarrollo Móvil & Biometría:** Apps nativas en **Android (Kotlin)** con integración de visión computacional y reconocimiento facial en el dispositivo.
 
-☁️ Tengo un gran interés en la computación en la nube. Así que, estoy aprendiendo AWS.
+---
 
-📝 Escribo regularmente artículos en Hashnode.
+### 🚀 Repositorios & Proyectos Destacados
 
-💬 Pregúntame sobre AWS, React, React Native, Nodejs y MongoDB.
-
-📫 No dudes en contactarme en loritox3421@gmail.com.
-<!--Intro end-->
-
-
-
-<!--- stats & Trophy (start) -->
-<p align="center">
-  <!--- stats (start) -->
-<table align="center">
-<tr border="none">
-<td width="50%" align="center">
-  
-  <img  align="center"  src="https://github.com/Johann3421/Calculadora/blob/main/mi_archivo.svg" />
-  <br></br>
-  <img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github.com/Johann3421/Calculadora/blob/main/mi_perfil.svg" /> 
-</td>
-
-<td width="50%" align="center">
-
-  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=1010nishant&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=10"/>
-  
-  </td>
-</tr>
+<table>
+  <thead>
+    <tr>
+      <th>Proyecto</th>
+      <th>Descripción</th>
+      <th>Tecnologías</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/Johann3421/Sekai-POS-1.1">
+          <b>Sekai-POS-1.1</b>
+        </a>
+      </td>
+      <td>
+        Motor transaccional de punto de venta e inventario comercial con control de caja, soporte de ticketera e impresión y reportería.
+      </td>
+      <td>
+        <code>JavaScript</code> <code>Node.js</code> <code>Express</code> <code>MySQL</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/Johann3421/Proyecto_automatizacion_peru_compras">
+          <b>Automatización Perú Compras</b>
+        </a>
+      </td>
+      <td>
+        Pipeline de web scraping y extracción concurrente 24/7 de acuerdos marco y licitaciones del Estado peruano.
+      </td>
+      <td>
+        <code>Python</code> <code>Selenium</code> <code>RPA</code> <code>Web Scraping</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/Johann3421/bot_telegram_alertas_precios">
+          <b>Bot Telegram Alertas de Precios</b>
+        </a>
+      </td>
+      <td>
+        Monitor en segundo plano que vigila variaciones de precios en catálogos y emite alertas instantáneas vía Telegram Bot API.
+      </td>
+      <td>
+        <code>Python</code> <code>Telegram API</code> <code>Async Webhooks</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/Johann3421/RecFacialPython">
+          <b>Reconocimiento Facial Biométrico</b>
+        </a>
+      </td>
+      <td>
+        Sistema de visión artificial para detección, clasificación y control de acceso biométrico con OpenCV.
+      </td>
+      <td>
+        <code>Python</code> <code>OpenCV</code> <code>Computer Vision</code>
+      </td>
+    </tr>
+  </tbody>
 </table>
-<!--- stats (end) -->
 
-<!--- trophy (start) -->
-<div align=center>
-  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
-      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=1010nishant&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
-    </a>
-</div>
-<!--- trophy (start) -->
+---
 
+### 🛠️ Tecnologías & Herramientas
 
-</p>        
-<!--- stats (end) -->
-
-
-<!--h1 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h2 style="display: inline-block">Technologies That I Know👨🏻‍💻</h2></summary>
-  </ul>
-</div>
-<!--tech stack icons-->
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,aws,bootstrap,c,cpp,css,docker,dynamodb,express,figma,firebase,github,html,idea,java,js,kotlin,linux,md,materialui,mongodb,mysql,nextjs,nodejs,postman,py,react,redux,tailwind,ts,vscode&perline=14" />
-  </a>
-</p>
-
-
-<!-- Connect with me -->
-<!--h2 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h2 style="display: inline-block">Connect With Me🤝</h2></summary>
-  </ul>
-</div>
-
-<!--icons and links-->
-<p align="center">
-<a href="https://www.linkedin.com/in/johann-cristopher-abad-campos-76998b251/" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234979284-68c11d7f-1acc-4f0c-ac78-044e1037d7b0.png" alt="linkedin" height="50" width="50" /></a>
-<a href="https://twitter.com/Johann38983766" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234980676-61bfb021-ecc8-48f7-88e6-34c1b06c4a58.png" alt="twitter" height="50" width="50" /></a> 
-<a href="https://www.instagram.com/cristhophac/" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234981169-2dd1e58f-4b7e-468c-8213-034ba62156c3.png" alt="instagram" height="50" width="50" /></a>
-<a href="https://discord.gg/UjwKkJsXsf" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234982627-019fd336-6248-453c-9b05-97c13fd1d207.png" alt="discord" height="50" width="50" /></a>
-  
-</p>
-
-
-<!--profile visit count-->
 <div align="center">
-  
-[![](https://visitcount.itsvg.in/api?id=1010nishant&icon=3&color=6)](https://visitcount.itsvg.in)
-  
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,ts,js,react,nodejs,express,laravel,dotnet,kotlin,postgres,mysql,docker,aws,linux,git,figma&perline=8&theme=dark" alt="Tech Stack" />
+  </a>
 </div>
 
-<!--horizontal divider(gradiant)-->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
-----------------------------------------------------------------------
-Credit: [1010nishant](https://github.com/1010nishant)
+### 📊 Actividad en GitHub
 
-Last Edited on: 29/4/2023
+<div align="center">
+  <table border="0">
+    <tr>
+      <td width="50%">
+        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Johann3421&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" />
+      </td>
+      <td width="50%">
+        <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Johann3421&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" width="100%">
+        <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Johann3421&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff" alt="Streak Stats" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+### 🐍 Gráfico de Contribuciones
+
+<div align="center">
+  <img src="assets/github-snake.svg" alt="Snake animation" width="100%" />
+  <br/>
+  <sub><i>Generado y actualizado automáticamente cada medianoche vía GitHub Actions</i></sub>
+</div>
+
+---
+
+### 🤝 Conectemos
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/johann-cristopher-abad-campos-76998b251/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:loritox3421@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  &nbsp;
+  <a href="https://discord.gg/UjwKkJsXsf" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  &nbsp;
+  <a href="https://twitter.com/Johann38983766" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" />
+  </a>
+</div>
