@@ -98,10 +98,10 @@ Soy **Johann Cristopher Abad Campos**, desarrollador de software ubicado en **Hu
   <table border="0">
     <tr>
       <td width="50%">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Johann3421&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" />
+        <img width="100%" src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=Johann3421&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" />
       </td>
       <td width="50%">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Johann3421&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
+        <img width="100%" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=Johann3421&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
       </td>
     </tr>
     <tr>
